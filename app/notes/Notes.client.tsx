@@ -5,13 +5,13 @@ import { useDebouncedCallback } from "use-debounce";
 import { keepPreviousData, useQuery } from "@tanstack/react-query";
 import css from "./page.module.css";
 
-import SearchBox from "../components/SearchBox/SearchBox";
-import Pagination from "../components/Pagination/Pagination";
-import NoteList from "../components/NoteList/NoteList";
-import Modal from "../components/Modal/Modal";
-import NoteForm from "../components/NoteForm/NoteForm";
+import SearchBox from "../../components/SearchBox/SearchBox";
+import Pagination from "../../components/Pagination/Pagination";
+import NoteList from "../../components/NoteList/NoteList";
+import Modal from "../../components/Modal/Modal";
+import NoteForm from "../../components/NoteForm/NoteForm";
 
-import { fetchNotes } from "../lib/api";
+import { fetchNotes } from "../../lib/api";
 
 const PER_PAGE = 12;
 
