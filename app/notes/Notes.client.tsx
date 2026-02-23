@@ -37,6 +37,7 @@ export default function NotesClient() {
         search: search || undefined,
       }),
     placeholderData: keepPreviousData,
+    refetchOnMount: false,
   });
 
   const notes = data?.notes ?? [];
